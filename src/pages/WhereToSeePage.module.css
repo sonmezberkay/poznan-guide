@@ -1,0 +1,60 @@
+.main-container {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Stare_Miasto_w_Poznaniu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.9);
+  background-attachment: fixed;
+  padding-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.items-container {
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  min-width: 70%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(46, 43, 43, 0.8);
+}
+
+.links-container {
+  height: 30%;
+  padding: 1.1rem 1rem;
+  display: flex;
+  background-color: rgba(46, 43, 43, 0.637);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.list-container {
+  height: 70%;
+}
+
+.link-button {
+  cursor: pointer;
+}
+
+
+.link-button a {
+  border-right: 1px solid black;
+  padding: 0.4rem 1.5rem;
+  opacity: .5;
+  padding-bottom: .5rem;
+  border-radius: 5px;
+}
+
+.link-button a:hover {
+    opacity: .9;
+}
+
+a.active {
+    opacity: 1;
+    border-bottom: 2px solid black;
+    font-size: 1.2rem;
+}

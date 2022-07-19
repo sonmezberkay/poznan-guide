@@ -1,0 +1,11 @@
+.map-container {
+  background-color: transparent;
+  position: fixed;
+  top: 25vh;
+  left: 50%;
+  width: 40%;
+  height: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  border-radius: 15px;
+}

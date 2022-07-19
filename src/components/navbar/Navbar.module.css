@@ -1,0 +1,66 @@
+nav {
+    height: 8vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 100;
+}
+
+.poznan-header {
+    background: url('./poznan.png');
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+}
+
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-buttons {
+    width: 50vw;
+}
+
+.left-buttons .btn {
+    margin: auto 3rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    font-variant: small-caps;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.right-buttons ul {
+    display: flex;
+    width: 50vw;
+    justify-content: right;
+}
+
+
+.right-buttons ul li {
+    margin: auto 4rem;
+   list-style: none;
+   padding: .5rem 1.2rem;
+   background-color: rgba(0, 0, 0, .4);
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.right-buttons ul li:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.right-buttons ul li:active {
+   transform: scale(.98);
+}
+
+a {
+    font-size: 1.1rem;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, .5);
+}

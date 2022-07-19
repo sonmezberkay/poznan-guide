@@ -1,0 +1,359 @@
+{
+    "menus": [
+      {
+        "id": "1",
+        "restaurantName": "Bar a Boo",
+        "address": "Gołębia 6, 61-838 Poznań",
+        "location": {"lat": 52.4066, "lng": 16.9333},
+        "price": "€",
+        "points": "8/10",
+        "photo": "https://scontent.fpoz3-1.fna.fbcdn.net/v/t1.6435-9/83040419_2835122643221225_5193646811360788480_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Pu5pgymACioAX859VlE&_nc_oc=AQnF5iqDpHrICfnjd8TNisCpCf23F6SsQ3IRN9ptTmhWr1S5Y-3RZaPogpCun2np6Ys&_nc_ht=scontent.fpoz3-1.fna&oh=00_AT_FCL4VYaXEk3TzbbsmyvvELFdZj0J5ltnVALXFmrfpkQ&oe=62F376AF",
+        "menu": [
+            {
+                "meal": "Pizza Margherita",
+                "price": "5 €",
+                "ingredients": "Pizza sauce, Mozarealla Cheese, Extra Virgin Olive Oil, Basil..."
+            },
+            {
+                "meal": "Tomato Soup",
+                "price": "3 €",
+                "ingredients": "Served with Parmesan Cheese and Croutons..."
+            },
+            {
+                "meal": "Spaghetti Carbonara",
+                "price": "6 €",
+                "ingredients": "Parmigiano Reggiano and egg yolk sauce served with fried Pancetta..."
+            },
+            {
+                "meal": "Pizza Napolitana",
+                "price": "4 €",
+                "ingredients": "Traditional Napolitana Pizza dough with delicious tomato sauce and Mozarella Cheese..."
+            },
+            {
+                "meal": "Ravioli",
+                "price": "5 €",
+                "ingredients": "Hand made dough filled with Ricotta Cheese and spinach..."
+            }
+        ]
+      },
+      {
+        "id": "2",
+        "restaurantName": "Ramen Shop",
+        "address": "Woźna 18, 61-777 Poznań",
+        "location": {"lat": 52.4079, "lng": 16.9367},
+        "price": "€€",
+        "points": "8.5/10",
+        "photo": "data:image/png;base64,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",
+        "menu": [
+            {
+                "meal": "Shoyu",
+                "price": "9 €",
+                "ingredients": "Clear chicken broth with the addition of goose oil and leek, red onion, spring onions, egg, pork neck, chashu bacon, menma..."
+            },
+            {
+                "meal": "Shio",
+                "price": "9 €",
+                "ingredients": "Clear chicken broth with the addition of goose oil and lemon peel, red onion, spring onions, menma, grilled squid, chicken in caramel and lemon marinade..."
+            },
+            {
+                "meal": "Ebi Tonkotsu",
+                "price": "10 €",
+                "ingredients": "Creamy pork broth with shrimp oil, diced chashu bacon, grilled bacon, beni shoga, red onion, spring onions, tomato, mayu oil..."
+            },
+            {
+                "meal": "Tonkotsu Negi Baka",
+                "price": "11 €",
+                "ingredients": "Creamy pork broth with roasted vegetable oil, spring onions, menma, red onion, piri piri paste, won ton with pork (x2) chashu bacon bo la lot (ground beef wrapped in shiso leaf) Spicy dish...."
+            },
+            {
+                "meal": "Tori Paitan",
+                "price": "9 €",
+                "ingredients": "Creamy chicken broth with buttered roasted chicken oil, slightly spicy sirloin in miso, slightly spicy corn, spring onions, red onion, caramel and citrus grilled chicken thigh ..."
+            }
+        ]
+      },
+      {
+        "id": "3",
+        "restaurantName": "Bread Street",
+        "address": "Wrocławska 19, 61-837 Poznań",
+        "location": {"lat": 52.4064, "lng": 16.9330},
+        "price": "€",
+        "points": "7/10",
+        "photo": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhISExAWFhUXFRcVFRcYFhcVGBoVFhUWGBUVGBcYHSggGBooGxYVITEiJSkrLi4uGB8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLS0tLS0tKy4tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYBBAcDAgj/xABLEAABAwICBgUGCwUHAwUAAAABAAIDBBEFIQYSEzFBUSJhcYHRBzKRobHBFBYjQlJUcpOz4fAzU2J0khc0NTaCorIIJLQVQ0TC8f/EABoBAQACAwEAAAAAAAAAAAAAAAABBQIEBgP/xAA4EQACAAQCBggFAwQDAAAAAAAAAQIDBBEhMQVBUXGh0RITMmGRscHwFCIjgeFykqJDstLxFSQz/9oADAMBAAIRAxEAPwDuKIiAIiIAiIgCIo+vxOOLzjc/RGZ/JYTJkMuHpRuy7zKGFxOyVyQWvPUsZm54HafcqxWY9I/JvQHVv9Ki3OJNybnrVNP03BDhKhv3vBe/A35ej4mrxu3H8Fpn0hiHmgu9Q9aj5dJJD5rGjtuVHU+HSv8ANjNue4ekqRh0bkPnOa30lanxOkZ+MCaXcrLxfM9uqpZfafG/BGq/G5z8+3YB4L4OKz/vXKYZo03jI49gAXqNHof4/SPBZfA6Rizjf73+SPiKVZL+JAjFZ/3rl6Mxqcf+5ftA8FNHR2H+P0jwXm/RpnCRw7QCo+B0hDlG/wB79bD4ilea/iacWkcg85rT6Qt2n0jjOTmlvrWnLo3IPNe09tx4qPnwuZm+M25jpD1KOv0jIxiTa70mvFcyerpJnZaX3t5lvpq2OTzHg9V8/RvW0ueA27VI0eNyssCdYcnb/StqRpuB4TYbd6x4crnlM0fEsYHffzyLkijKHF45Mr6ruR9x4qSurmVNgmw9KB3XcV8UEUDtErGURF6GIREQBERAEREAREQBERAF5TStaC5xAA4leNfWMibrOPYOJPIKoYhiD5XXcbDg0bh4nrVdXaQgplbOLZz93ZtU9NFNexbSQxLH3Ou2Poj6XE9nJQwBJ4knvJW3h2GvmOQs3i47u7mVaaDDY4hkLni47/yVNKpqmvfWTHaHb/isjfjmyqZdGBY+836EFQ4BI6xf0By3u/JTtJhcUe5tzzOZ/JbwWVe0+j5Ejsq72vFldNqZkzN4bDAWURbprhERAEREAWCsogNOqw6KTzmC/MZH0hQdbo84ZxnWHI5H07irQsFadRQyJ6+ZY7Vgz3lVEyX2X9tRz6RhabEEHkcipPDsbfHk+7m+sdh4qyVtCyUWcOw8R3qrYnhL4s/OZ9Ll2jgqKdR1FFF1sp3W3mtaLGXPlVC6Mas/eTLZS1LZG6zXXH6yPIrYVCoqx8TtZp7RwPUVbsNxFkzbjJw3t4jxCtqDSMFR8sWEWzbu5au80qikilYrI30RFZmoEREAREQBERAFqV9a2Jhc7uHEnkvaeUNaXE2AFyqViNc6Z5cd25o5DxVfpCtVNBh2nlzfvFmzS07nRY5LM+K2rdK4ucewcAOQW/g+EGSz35M4c3fl1pgeFbQ67x0B/uPLsVsa2yqtH6Pc99fPxTyT19798DdqqpS11cv/AF74b8viOMNAAAAG4BeqIulyKkIiIAiIgCIiAIiIAiIgCIiAL4c0HIhfaICr4xgurd8Yy4t5dY6lD087mODmmxH6sepX8hVnHcK1byMGXzhy6x1LntI6O6H1pGFsWlq71y++0tKWr6X05nvuJjC8QbK2+5w84cvyW+qDRVTo3h7e8cxxCu1HVNkYHt3H1HiCt7Rtd8RB0Yu0uK28/wAmtV03UxXWTNhERWZqBERAERR+L1myjLvnHJvaeKwmTIZcLjiyWJlDC4mkiG0jxDWdsmnJvndbuXctDC6IzP1fmjNx6uXatUXJ5kn0kq54TRCKMN4nNx61zFNLir6lxzOys15Q+rLebGqaSoYc/d3yNqJgaAALACwC9URdSlYpgiIpAREQBERAEREAREQBERAEREAREQBfLmr6RAU3GsO2T7jzHbuo8lnAq/Zv1T5jsj1HgVZ66mEjHMPHd1HgVR5oi1xaRmDYrl66TFRVCnSsnit+tbnzLinmKolOXHmvaZ0ELKicBrdpHYnpMyPZwP65KWXRyZsM2BRw5NFVMgcETheoIiL1MAqhpHVa0mqDkzLv4qz1U2oxzzwBPgFQ3uJJJ3k3PaVR6bn9GCGVtxe5fnyLHR8u8Tjer1JjRuj1pNc7mbu3h6PBWsLQwem2cTRxOZ71ILf0fT9RIUOt4ve+WRrVM3rJjerUERFumuEREAREQBERAEREAREQBERAEREAREQBERAYIVb0npLESjj0Xe4+5WVa1dTiRjmHiPXwPpWrWSOvkxQa9W9ZHtIm9XMURUsFqtnK03yOTuw8fYrqFzxwtcHfuParvhFTtImO42se0ZH2Kp0JPwikvevXn4m5pCXipi3cjdREXQFaQuk01og36TvUM/bZV7DYNeWNvAuF+7M+oKR0qfeRjeTb+k/ksaLxXlc76LfWT+RXMVP19IqB5JpeHzP1LeV9OkcXc+OBallFhdOVBlFi6XQGUWLogMosJdAZRYRAZRYWUARYul0BlEWLoDKLF0QGUWEugMosJdAZREQFLx+HUndyd0h37/WCpLRSbJ7ORBHfkfYFjSuL9m7tafaPetHRuS09vpAj3+5cxD/19JW1N8IsfMt39Sk77eV/RFwuiWRdOVBTcffed/VYeoH3qU0UZ0ZD/EB6B+ah8ZPy8v2vcFO6Lj5E/bPsC5mi+bSMT74/NlvUfLSQr9J7aTkijqyDYinmIIyz2blwDQrROsxGKaWOuLNk4NIe+U3JZrbwcuS7/pT/AHKr/l5vw3L896D6ZVVBDOynpRK17g5zi2R2oQwN+ZluzzXToo47XVyd0D0gqJcJxmJ8r3CKm2kTnOJe3aMm1gHb7XYCOWah9FtE6yupJ6uOuLBC57Cxz5bksiZIbEHLJ4HctnycRAYbjx1s/gjG242DKg63u7ivfyf6bUtFh1ZTSiQySvlczVZdtnwRxtu64t0mlSQrYXJDRDHKibA8UbJK9xhZ8m8uJeGvbfV1t+RaSM+KitCdB6zEad1QzEHRgSOj1XGRxu0NN7hw+kvfQOFwwPGnW6JaGg8CWsu639QWloPp1WUNM6GnohMwyOkLtWU9ItaC3oC3zR6U3EbL7DtWgmj8tDS7CWfbO2j36/S3OtYdIk5WXFdP9JXtxuSZsjtSnmiaA1xAtBqmQWvbN2uF+goav5ATP6PyYkd1dHWdv71+V5KSSoiq687hMwv+1Uukcc+o2/qCIyjwSSP0L5UZiMJq3scR0GEOaSDnKzMEdS4zhmi9ZNh0uJNrnBkYkJjL5dYiLfYg2XRcXxHb6L7W9z8HiY4/xRysY71tKjdEP8r1v2Kv2FRkS0m/sWHyL4zNU0Dts8vMUzomucbuLAxjhrHiRrEX6gpDyp4xLS4dNLC7VkJZGHcWh7wHOHXa9uRUD/0//wBwn/mnfhQq56XYCyupZaV7i3XsWuGZa9pDmutxzG7iLo8yYb9E4XHoXWOw44sK05MdLq60m01WuIcdpffYE9yuujD6rGMGkgNRqTx1Aj2xLruawRyAuLbG9n6t+NlWo6+uwUuoq6Hb0MoczVBOq5jgdfYvy1SQTdh9W9dc0FjoPgokw9gbDI4vIGtfXsGuDg4khw1QLdSlmMCV7HCNINH6qkr4KB1a5zpdjZ4dIGjbSmMXBdc2IurxWaIVOG4Zij5K0zGSOIMsZAWFkuZBc479YbuSjvKb/mKg7aH/AMpy6P5Vv8JrfsN/EYoCSVzjGF6LVk2HS4k2ucGRiQmMvl1jst9iDbgrBS47UTaNVLpJXF8U8cTX6x19TaQkAu3m2sRfko7AdNaWHBKigeJNvI2drbMu35W+rd18t6+8IicNGK0kZOqmFp5gPgaSO8EdykwVtWwaI6AVlfSsqmYiYw5z26rjK4jUe5hzD/4bqX8pWGzUGEUMDqhz3tqXa0jXPaXBzZnAb78Rx4KD0O8oNbR0jKeGg2zGueQ/VlNy95c4XYLZEkdyuX/UCf8AsqX+ZH4MiazLDotrYQGEeS6tqIIZximqJY2yBp2pID2ggE6+e9WjS3yeVdV8E2dcI9jTMhf+06Tm3u/onjfjmoPQbygVpdQ0fwAbL5KHa6svmWDde9tXdnyXZ1DwM4VC0fmjQ7R2qr6ienZXPjMIJLnOkcDZ+pkA7Lmu/aI4S+ko4aeSXavjDg5+fSu9zr9Ik7jbuXLPIj/iWIfYf+Ou2pFmRLStch9J2XhvycD7R71XsKfaaM/xD15e9WbSAfIP7v8AkFVKI/KM+23/AJBcxpX5ayCL9PB/gvKLGREt/kX5ERdTZlLYpGMD5eX7XuU7owfkv9Z9gULj7bTv67H/AGjwUroo/oyDk4H0j8ly1F8ukYl3xLjcuajGlT/SbelP9yq/5eb8Ny4/5HNJ6OkpqttTO2Nz5A5rTclw2YGVhzyXbK2mbLHJE/zXscx1jY6rgQc+GRVGHkewr6Ev3zl05SxJ3ujmfk1Yf/Tsey/+Ewd+rUZLVwvRxs2CVVW1g20FZm7iYNjDrM7AZC/uK7pQaHUcNJLRRxFsMrXNk6RL3aw1SS853tl1L7wLRGlpKeWliY7ZSlzntc4vuXsbG7M8NVoS5HQusSjYbiDJtGJtRrWmOnkhkDQB02Wu424uBa7/AFLW8julVFS0L4qiqjieZ3vDXEg6pZGAd3MH0K8YZoHRQU1RSRiTYz/tGmRxO61wTmDYD0BRP9j2Ffu5fvnpcm0WDNjTnSWB+EVc9PM2RrmmBrmm415CIyO0BxXIMF0Grp8Pkq4pmiC0j3RF8gL9jfPUA1XG7crldq/s+ofggodWTYCXbW2jr6/W7fbqUtSUdNRUrYA5scDG6gMjwBZxORc45kkn0pchw3eJxrRzENfRvEYb5xSNt9iSSJ4/3a69NG9I6SPAKqkfUNE721AbHnrEvvqWytmrxhmh+DxxzUsUw1aljNdnwkOc5rCXsc3O44m44KO/s+wDVL9sNUENLvheVzmATrWvkcupLkWZ9f8AT+P+wn/mnfhQqY8r9TNFhkskL3sc2SK7oyWuDTIAcxmBmp/BKWlpYmU9PqMY12o1ocCdcjXIJJu55HSzzIzXpV19I8SwyTQuAa7bMc9hszIO12k5DMA35prM0rQ2OVs0xo5cBfT1FSJKrYSt1ZNZzzNd+ydcjfctIddTHkBa74BOTexq36vIjZQgkd4PoK+5/J3gNmzGQNje6zD8KIjJv5rXF2fYCrthfwSANpIHRM1BlC17dYDeSW3vxvc87oQk74nIvKb/AJioO2h/8py6P5Vv8JrfsN/EYvHGsAwuoqxVzTN29OGONpw0MED9cF7L5AOOd1MaQMpJ4n0dRMwCVly3aBjyxp1i4Z3t0b36igtn3nA5tG2PwKOuYwCRlRI2Vw3uic7Ubf7LtTuJV9x+vZUaLiRjWtsyBrmtAaA+OdjHgAbukCe9W/BMBw40UtBTyNlp3BweGyiQja3J6TTcHiOxZp9BKNlHLQNEmwkfruBkcXawLT0XHMC7GpchQlS8lWl9BTYbDDPVxxyNfKS1xIIDpXubw5ELw8uGIRVGHUk0MgkjdUnVc3MG0coNu8FTx8j+FfQl++cpSq0AoZKSGic2TYwvL2ASODg52te7t589yXJtE1ZkZopp1hsdFSRyV0TXsgja9pJBDmsAIOXNXmnnbIxr2G7XAOaRuLSLgjuKoh8juFfQm++crxQ0rYo44mX1WMaxt8zZoAFzxyChmSvrON+RH/EsQ+w/8ddtVb0d0LpKKaWeBrw+UEPLnlwzdrGwO7NWRSyIVZEbjx+Qk7v+QVSpPPZ9pv8AyCs+kz7Q25uA9p9yruFNvNGP4x6jf3Ll9K/NWQQ9yXEuaLCRE9/kXpERdVcprlV0pZaRrubbeg/mE0VltI5vNt/QfzW9pTBeNrvonPsP52UDhU+pNG7hex7DkfauVqPoaRUbybT8flfqXMr6tJbWk+GJdZo9Zrm3IuCLg2IuLXB4FRHxbH1yr+/PgptZXTlQQfxbH1yr+/PgnxbH1yr+/PgpxEIsQfxbH1yr+/PgnxbH1yr+/PgpxEFiDGjgBv8ADKv78+C9NJMJNTHHGH6urPDKSCQdWOQOIBG4kDephEFim1uiD3TbVs2W0jdqPLiC1lPstZ3EyAnWBzGWfVqDQ+o+DQwl0ZdFqhrttPfKF0Rc026G/wAyzmuBIPNX1FNyOiilUOhsjJY5nTlzm1LJyAXNjLW0ggNoh0WvLhe9shkvao0ScWT2lu99WKlrXaxisydkrWOZ16liRzVvRLk2RRhopUiR9QHU5kkFQ18b2uMLBOIBePK5I2F3Agaxe7zV9YTodLDLHeVjomVDKgPIcZiWUbKbU5NB1NYm5uDa3FXdEuLIplVoc97JWGazZqp80ozc0xGQytjDHdG5cIw6+RGtzXjR6IVDJKZxmY7ZNhY5/T1nx075NmHsN2SOLHN6fRc0l1ibi15RLjooidH8MNOyRpIJdUVE2Qt0Zp5JWt7QHgdy+avA9o9z/hNSy9uiyUtaLADJtstymEUE2IP4tj65V/fnwT4tj65V/fnwU4iEWIP4tj65V/fnwT4tj65V/fnwU4iCxB/FsfXKv78+Ck6Gn2bGs13vtfpPdrONyTm7jvWyiEld0rk/Zt6yT7B7So/RyO84P0QT6re9NIZ9ad3Jtm+jM+sn0Lf0Uh/aP7Gj2n3Lmb9fpLDJP+38ot//ACpO9rzv6FiuiIukxKg162DXjczmCO/h61RSLZcV0NU3SCl1JSQMn9IdvEfrmqTTcjpQQzVqwe5++JY6PmWicD148+BZcKqNpEx3G1j2jIrdVW0Zq9V5jO52Y+0PEexWi6saCo6+QoteT3rnmatTK6uY4dWrcZREW4eAREQBERAEREAREQBERAEREAREQBERAEREAWvVzBjHOPAX8AvclV3Ser3RD7TuzgPetarnqRJimeG95HrIluZMUJX3uJJJ3k3PaVc8GptnCwcSLntOfgO5VfCqXaStbwBu7sCu4VPoSR2pz3LzfovE3tITFhLW/kZREXQlYFG4zR7SMgDpN6TfDvUkiwmS4ZkDgiyeBlBE4YlEtRzxjiCCMiDcdoV3w2sErA4b9zhyPEKvaQUGo/XaOi4+h3H0rXwbENk/PzDk4e/uXM0c2KhqHKmZPN+UW4tp8CqZSjgz93RdUXmx4IBBuDmF6LqSnCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiLBKA8KucRsc924D/APAqPUzl7nPdvJv4BSOPYjtHajT0G+s8+xeWC0G1fn5rc3e4Ll6+fFVz4ZErJPxet7kvUt6WWpEtzI9flsJvR2j1I9cjpPz/ANPDxUysBZXRSJMMmWpcOSRVzJjmRuJ6wiIvYwCIiA8KmBr2lrhkf1dUmvpHRPLHdoPMc1fVo4nQNlZY5EeaeR8FW6RoVUQXh7Sy7+7lsZtUtQ5MWOTITAcV1LRvPR+aeR5ditAVAqadzHFrhYj9X7FL4NjOpZkh6PB3LqPUq/R2kXLfUT8NjerufvDcbVVS9L6kv3uLSi+GuBzBX2uiKsIiIAiIgCIiAIiIAiIgCIiAIiwSgBVdx7Fd8TD1OP8A9QmMY1vjiPUXe4eKgYoy4hrRcncFQaS0l/Rk55NrwsrayypKT+pMy94szTQOe4MaLk/q/Yrrh9G2JgaO88zzXhhGGiJtzm87z7h1KSW1oyg+Hh6cfafBbN+3wPGrqetfRhyXHvCIitTTCIiAIiIAiIgNHEsPbK2xyI3O4j8lUK2jfE7VcOw8COYV9WvVUzJG6rm3H6zCrK/RsFQulDhFt27+eZt01VFJweKKnhmLPiy85nLl2claaOuZKLtPaOI7Qq1iOCvj6Tekz1jtCjYpC03aSDzCqZNbUUUXVTldbP8AF60bsynlVC6ct2fvNHQQsqs0OkRGUjb/AMQ394U5TVscg6Lgerj6FfyK2TPXyRY7Mn4FbNkTJfaXI2kWAVlbR4hERAEREAREQBFr1FUxgu5wHb4KErdIuETf9TvcFrT6yTI7cWOzN+B6y5EyZ2VyJupqmRjWc4AfrcOKrGKY06Tot6LPWe3wUdUTuedZziT1/rJbmHYTJLn5rfpH3DiqGfXz6uLqpKaXH7vJL3cspdLLkLpzGm+H2Ws06enc9wa0XJ/WfIK3YThbYhfe87z7h1L3oqJkTbNHaeJ7VtqyoNGQ0/zx4xcFu7+/wNSpq3N+WHBeYREVqaYREQBERAEREAREQBERAYsouvwaOS5HRdzHvHFSqLzmyYJsPRjV0ZQRxQO8LsUqsweWO/R1hzbn6t4WgDbdkuh2WpU4dFJ5zBfmMj6QqSfoRZyYrdz5877ywl6QeUxX3cirU2MTM3PuOTs/Xv8AWpGHSU/Oj9B9xX3Po235khHURf2LRlwCYbg13YfFa/R0lIwV2v3LjievSo5mdlw/BLM0ihO/WHcD7CvUY7B9M/0u8FW3YXMN8Tu4X9i8jSSfu3/0u8FK0pWw9qD+L5j4OneUXFFpOOQfTP8AS7wXnJpDCN2se7xVZFHL+7f/AEu8F6sw2Y7onei3tT/lKyLswfxfMfBSFnFxRLTaS/Rj9J8FH1GOTu+dqj+EW9e9fUWAzneA3tPgt+DRv6cnc0e8pbSc/DFL7Q/kJ0kvY+P4K+9xJuTc8zmtqjwuWTc2w5nIfn3K00uFQx7mAnmekfXuW9Ze1PoTG86L7L1b9F9zzmaQ1S148iHoMCjZm7pu69w7B4qYAWUV1JkS5MPRlpJFfHMijd4ncIiL2MAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAwUCIoZKCyiL1hMUFgrKKIiGfJWQiLzRmZREUkBERAEREAREQBERAEREB/9k=",
+        "menu": [
+            {
+                "meal": "Cheese Steak Burger",
+                "price": "7€",
+                "ingredients": "With 160g beef, cheddar cheese, gorgonzola, lettuce, tomato, caramelized onion, cheese sauce and homemade ketchup..."
+            },
+            {
+                "meal": "Spicy Classic Zapiekanka",
+                "price": "5€",
+                "ingredients": "With tomato sauce, mozzarella, aged pepperoni salami and jalapeno peppers..."
+            },
+            {
+                "meal": "Chili Con Carne fries",
+                "price": "6€",
+                "ingredients": "With chilli con carne, cheddar cheese, guacamole, nachos and chives..."
+            },
+            {
+                "meal": "Halloumi Grill salad",
+                "price": "6€",
+                "ingredients": "With lettuce mix, grilled halloumi cheese, walnuts, guacamole, lime and cherry tomatoes..."
+            },
+            {
+                "meal": "Sweet potatoes fries",
+                "price": "4€",
+                "ingredients": "Choice of: cream-mayo sauce, eggplant-pepper sauce, garlic-dill sauce, honey-mustard sauce, ketchup and more..."
+            }
+        ]
+      },
+      {
+        "id": "4",
+        "restaurantName": "Why Thai",
+        "address": "Kramarska 7, 61-765 Poznań",
+        "location": {"lat": 52.4093, "lng": 16.9339},
+        "price": "€€",
+        "points": "7.2/10",
+        "photo": "https://scontent.fpoz3-1.fna.fbcdn.net/v/t39.30808-6/280126727_3565013810289215_6575174858622590963_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=G9vtGJS8iLYAX9qCpwx&tn=dUT3LF6wcOol5ren&_nc_ht=scontent.fpoz3-1.fna&oh=00_AT-ltEO3BHacV5ny6LOJr0SMbAw5v9RIXSG9zInqHfWeww&oe=62D9C912",
+        "menu": [
+            {
+                "meal": "Pad Thai",
+                "price": "8€",
+                "ingredients": "Rice noodles with sweet and sour tamarind sauce, mung bean sprouts, chives, egg, nuts, carrot and lime. The dish is not spicy..."
+            },
+            {
+                "meal": "Grilled Prawns in Curry",
+                "price": "12€",
+                "ingredients": "With pineapple, zucchini and Thai Basil..."
+            },
+            {
+                "meal": "Lamb in Massaman Curry",
+                "price": "18€",
+                "ingredients": "Served With cinnamon, peanuts and mint..."
+            },
+            {
+                "meal": "Grilled Tuna Sirloin",
+                "price": "16€",
+                "ingredients": "In Maracuia sauce - sesame, with lettuce freeze, fig, and lotus chips..."
+            },
+            {
+                "meal": "Fried Ice Cream",
+                "price": "5€",
+                "ingredients": "This is a faboulous combination of vanilla and caramel with the addition of peanuts..."
+            }
+        ]
+      },
+      {
+        "id": "5",
+        "restaurantName": "Rynek 95",
+        "address": "Stary Rynek 95, 61-773 Poznań",
+        "location": {"lat": 52.4088, "lng": 16.9341},
+        "price": "€€",
+        "points": "9/10",
+        "photo": "https://scontent.fpoz3-1.fna.fbcdn.net/v/t31.18172-8/10854846_1550981538503829_4781344557595321387_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=QlKU4-SDSc0AX99YVfA&_nc_ht=scontent.fpoz3-1.fna&oh=00_AT_tjqZi1q-5vJmtFsyFoQWB9YCW0R9XWfy9D8lGs9AOwQ&oe=62F23A19",
+        "menu": [
+            {
+                "meal": "Foccacio with Garlic",    
+                "price": "3.5€",
+                "ingredients": "Traditional Italian bread freshly baked with fresh oregano and garlic..."
+            },
+            {
+                "meal": "Shrimps in a butter sauce with chilli",
+                "price": "10€",
+                "ingredients": "Fresh shrimps fried on a clay pan with butter and chilli..."
+            },
+            {
+                "meal": "Schnitnitzel with fried egg, baked potatoes and cucumber cream salad",
+                "price": "11€",
+                "ingredients": "Traditional Austrian Schnitzel served with Gurkensalat..."
+            },
+            {
+                "meal": "Beef Burger served with Coleslaw",
+                "price": "9€",
+                "ingredients": "Classic beef burger with a Coleslaw..."
+            },
+            {
+                "meal": "New York Cheese Cake with Caramel Sauce",
+                "price": "4€",
+                "ingredients": "Daily baked New York Cheese Cake with different sauce options..."
+            }
+        ]
+      }
+    ],
+    "nature": [
+        {
+          "id": "1",
+          "name": "Lake Malta",
+          "location": {"lat": 52.4036, "lng": 16.9627},
+          "description": "Lake Malta, known also as the Maltański Reservoir, is an artificial lake in Poznań, Poland. It was formed in 1952 as a result of the damming of the Cybina River. It is about 2.2 km long (with the circuit of 5,6 km), which makes the lake the biggest man-made lake of the city. The water is 3.1 m deep on average with a maximum about 5 m. There are a number of recreational attractions along the edge of the lake including an artificial ski slope, an artificial ice rink, a zoological garden, Kolejka Parkowa Maltanka - a narrow gauge railway, the Mound of Freedom, seasonal bikes rental - MaltaBike",
+          "photos": [
+              "https://s.inyourpocket.com/gallery/249995.jpg",
+              "https://s.inyourpocket.com/gallery/119670.jpg",
+              "https://i.pinimg.com/736x/db/aa/a1/dbaaa1b9f73a1e3d4c1da4b637dd3cfd.jpg",
+              "https://ready2row.files.wordpress.com/2016/07/img_2651.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/1/17/Kopiec_Wolno%C5%9Bci_i_Malta-Ski_Pozna%C5%84_RB1.JPG"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Warta River",
+          "location": {"lat": 52.4026, "lng": 16.9445},
+          "description": "The river Warta (Warthe in German) rises in central Poland and meanders greatly north-west to flow into the Oder, against the German border. About 808.2 kilometres (502.2 mi) long, it is Poland's second-longest river within its borders after the Vistula, and third-longest including the Oder, that flows also across Czech Republic and Germany. Its drainage basin covers 54,529 square kilometers and it is navigable from Kostrzyn nad Odrą to Konin, approximately half of its length. The river Warta flows through the city of Poznan. Therefore, the river side in city is a good place to talk a walk, enjoy the sunset with people or have a drink in a river side pubs.",
+          "photos": [
+              "https://s8.tvp.pl/images2/8/6/d/uid_86d1bc345209ded8a6c0f0c40c7f44371594384589160_width_900_play_0_pos_0_gs_0_height_506.jpg",
+              "https://www.poznan.pl/mim/info/pictures/obrazek,pic1,1016,117621,194734,with-ratio,16_9.jpg",
+              "https://pliki.propertydesign.pl/i/11/12/19/111219_r0_1140.jpg",
+              "https://d-art.ppstatic.pl/kadry/k/r/9f/b1/60a35add31f77_o_full.jpg"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Park Cytadela",
+          "location": {"lat": 52.4215, "lng": 16.9351},
+          "description": "Park Cytadela - the largest park in Poznań with an area of approximately 100 ha, built in the years 1963-1970 on the site of the former Fort Winiary . It was given the name: Park-Monument to the Brotherhood of Arms and Polish-Soviet Friendship . In 1992 the name was changed to Park Cytadela . In 2008, it was recognized by the President of the Republic of Poland as a historical monument within the historical complex of the city of Poznań. It's a good option to enjoy a sunny day in Park Cytadela. You will often see people enjoying the day on the grass, having picnic, cycling or playing on the large fields or park. They are usually intended for recreation and embody the spirit and activities often found at outdoor camps and educational facilities, without the facilitated educational component. There are a few parks located in Poznan where you can safely push your limits on high trees and enjoy a free day.",
+          "photos": [
+              "https://mapio.net/images-p/61366950.jpg",
+              "https://myvoyage.pl/wp-content/uploads/2020/03/20170827_131010_optimized.jpg",
+              "https://d-art.ppstatic.pl/kadry/k/r/1/8e/e9/6267f443b9776_o_large.jpg",
+              "https://turystycznypoznan.files.wordpress.com/2014/11/dscf8334.jpg"
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Park Linowy",
+          "location": {"lat": 52.3970, "lng": 16.9871},
+          "description": "Adventure parks are places mostly located inside of forests and surrounded by tall trees. It is a place which can contain a wide variety of elements, including but not limited to, rope climbing exercises, obstacle courses, bouldering, rock climbing, target oriented activities, and zip-lines.",
+          "photos": [
+              "https://u.profitroom.pl/2020-hoteltajty-pl/thumb/1920x810/uploads/park_linowy/Tajty_park_linowy_2.jpg",
+              "https://katalogmarzen.pl/img/products/2/2021_09/park-linowy-przygoda-na-wysokosci-2-jfif-1-1.jpg",
+              "https://lesnaryba.pl/wp-content/uploads/2019/12/slider-4-1024x576.jpg",
+              "https://myadventurepark.com/wp-content/uploads/2019/07/LIAP.jpg"
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Lake Rusałka",
+          "location": {"lat": 52.4274, "lng": 16.8757},
+          "description": "Lake Rusałka is an artificial lake in Poznań, Poland with an area of 367,000 square metres. It was named after the water nymph Rusalka. It was formed in 1943 as a result of the damming of the Bogdanka River. In 1940 thousands of people were executed in the forests surrounding the lake. With its great nature and beach, you can both in cold and hot weathers find a joyful event to do.",
+          "photos": [
+              "https://upload.wikimedia.org/wikipedia/commons/3/3a/Rusalka_lake_Poznan_green.jpg",
+              "https://live.staticflickr.com/160/392130396_a1798eb2de_b.jpg",
+              "https://tzmedia.b-cdn.net/media/images/pl/place/800/4e0eca951af30a24305d7792fe8bbd79.jpg?1582270511",
+              "https://s.inyourpocket.com/gallery/120987.jpg",
+              "https://letithappen.pl/wp-content/uploads/2018/10/IMG_47081.jpg"
+          ]
+        }
+      ],
+      "culture": [
+        {
+          "id": "1",
+          "name": "Stary Rynek",
+          "location": {"lat": 52.4082, "lng": 16.9343},
+          "description": "The Old Market Square (initially Rynek, from the 19th century Alter Markt, the current name from 16/06/1919 - the main city square in Poznań, laid out around 1253 as the central place of the city. It is a square with a side length of 141 meters, and each wall has three streets, two of which are at the extreme corners. It is located in the Old Town, as part of the administrative housing estate Stare Miasto. It is the third largest market in Poland after Kraków and Wrocław also one of the largest in Europe.",
+          "photos": [
+              "https://www.poland.travel/images/en-EN/cities/Poznan_Stary_Rynek_fot_Jakub_Pindych3.jpg",
+              "https://i.wpimg.pl/1200x/filerepo.grupawp.pl/api/v1/display/embed/4af60959-c2cb-4ad3-ab13-31f244fcfddc",
+              "https://ocdn.eu/pulscms-transforms/1/RwNk9kpTURBXy8wN2ExZmRhYTAzMzYzMThjZjQxOGE4ZjQ2NjdhZmY5Yi5qcGeTlQMAzIzNEZTNCeOTBc0EsM0CpJMJpjg3OGRiMwaBoTAB/poznan.jpg",
+              "https://prezentokracja.pl/media/catalog/category/poznan-prezenty-atrakcje-1.jpg"
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Imperial Castle",
+          "location": {"lat": 52.4078, "lng": 16.9195},
+          "description": "The Imperial Castle in Poznań, popularly called Zamek, (Polish: Zamek Cesarski w Poznaniu, German: Königliches Residenzschloss Posen), is a palace in Poznań, Poland. It was built under German rule in 1910 by Franz Schwechten for William II, German Emperor, with substantial suggestions from the Emperor.Since its completion, the building has housed government offices of Germany (to 1918, and during World War II) and of Poland (1918-1939, 1945-present).",
+          "photos": [
+              "https://sumfinity.com/wp-content/uploads/2020/09/Imperial-Castle-in-Poznan-Poland.jpg",
+              "https://api.culture.pl/sites/default/files/styles/1920_auto/public/2020-02/zamek_cesarski_poznan_polona.jpg?itok=YxzXmhtc",
+              "https://mrshuttle.com/wp-content/uploads/2020/07/A-historic-stone-imperial-castle-with-a-garden-in-Poznan.jpg",
+              "https://poznan.travel/uploaded/File/CK%20Zamek%20po%20remoncie/1.JPG"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Rogalowe Muzeum",
+          "location": {"lat": 52.4084, "lng": 16.9350},
+          "description": "Rogalowe Muzeum of Poznań - the museum of St. Martin's Croissant, is located in the Old Market Square in Poznań. The museum is devoted to the 150-year-old croissant- baking tradition. Visiting the museum is interactive. During the show, visitors will learn about the production of a Rogal according to the original recipe. This institution aims to promote Poznań's culture and history, the most characteristic elements of which are: St. Martin's croissants, Poznań dialect and goats on the tower of the Town Hall. The museum was founded by Szymon Walter.",
+          "photos": [
+              "https://i0.wp.com/podrozezmamaitata.com/wp-content/uploads/2017/04/img_20170408_104501_hdr.jpg?resize=1170%2C658&ssl=1",
+              "https://epoznan.pl/storage/gallery/83523/QlKR9zNcwbDr3pMZnpGk7rxUwElYR15T_wm.jpg?1635603246",
+              "https://kurier365.pl/media/k2/items/cache/c2e9407532bf98db341470c4374f3755_XL.jpg",
+              "https://polskicaravaning.pl/img/artykuly/55325_rogalowe-muzeum-poznania_0.webp?d=1641135110"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Cathedral Basilica of Saints Peter and Paul in Poznań",
+          "location": {"lat": 52.4215, "lng": 16.9351},
+          "description": "Cathedral Basilica of Saints Peter and Paul in Poznań - one of the oldest Polish churches and the oldest Polish cathedral (since 968), located in Ostrów Tumski in Poznań. It is the burial place of the first Polish rulers and the supposed baptism of Mieszko I. The present Gothic cathedral was built in the 14th-15th centuries, partially rebuilt and regothised after the destruction of World War II. The basilica is part of the monuments and attractions of the Royal-Imperial Route. Since 2017, the Lenten station church.",
+          "photos": [
+              "https://upload.wikimedia.org/wikipedia/commons/d/df/Archikatedra_pozna%C5%84ska_04.JPG",
+              "https://scrolltheglobe.com/wp-content/uploads/2021/01/DSC0373.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bazylika_archikatedralna_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a_w_Poznaniu%2C_widok_z_drona.jpg",
+              "https://www.rynekinfrastruktury.pl//img/20220325163011poznan42250281920.jpg_900-528.jpg"
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Museum of Musical Instruments",
+          "location": {"lat": 52.4081, "lng": 16.9347},
+          "description": "Museum of Musical Instruments in Poznań - a branch of the National Museum in Poznań, a museum of musical instruments, the only one of its kind and of this size in Poland, the third largest in Europe. It is located in the Old Market Square in Poznań, in three historic tenement houses (including Kamienica Grodzicki). As a branch of the National Museum in Poznań, it is entered in the State Museum Register kept by the minister responsible for culture and protection of national heritage, in accordance with Art. 13 of the Act of November 21, 1996 on museums. The museum was established in 1945 and its founder was Zdzisław Szulc, the first curator. The first public exhibitions took place in 1949 in the building at al. Marcinkowski. It has a collection of around 2,000 exhibits from most continents. The collection of violin making instruments (e.g. Polish and Italian), pianos, wooden and brass instruments, Polish folk instruments, as well as instruments from distant countries of Oceania, the Americas, Africa and Asia is particularly rich.",
+          "photos": [
+              "https://ocdn.eu/pulscms-transforms/1/lXJk9kpTURBXy9mZmUzZWE3MDgyZTE4OWZiZjFmN2NiZmRiMzdkNmJlOS5qcGeTlQMAzI_NEeXNChCTCaZlMzllYjUGkwXNBLDNAnaBoTAB/klawesyn-burkata-shudiego-w-muzeum-instrumentow-muzycznych-w-poznaniu.jpg",
+              "https://muzeuminstrumentow.pl/wp-content/uploads/2018/08/0205_roz.-scaled.jpg",
+              "http://poznanskiefyrtle.pl/wp-content/uploads/2014/01/MM-060.jpg",
+              "https://veturo.pl/wp-content/uploads/2021/06/d365f4a562be45f1a8b415bb0431c7ca-1280x746.png",
+              "https://veturo.pl/wp-content/uploads/2021/06/d365f4a562be45f1a8b415bb0431c7ca-1280x746.png"
+          ]
+        }
+      ],
+      "nightLife": [
+        {
+          "id": "1",
+          "name": "Cuba Libre",
+          "location": {"lat": 52.4063, "lng": 16.9330},
+          "description": "Cubra Libre is very popular night club in the centre of Poznan, in only 1 minute walking distance from Old Market Square. It's a good choice if you like Spanish songs.",
+          "photos": [
+              "https://scontent.fpoz3-1.fna.fbcdn.net/v/t39.30808-6/292309849_10158871223201524_1062035184086380123_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a26aad&_nc_ohc=H9GtrS-4aSYAX-2sYN2&_nc_ht=scontent.fpoz3-1.fna&oh=00_AT_9-gN78xWhyMNFBLhmNr9gvVCYjRMTp2g-OeeKHqXTvQ&oe=62D8800D",
+              "https://scontent.fpoz3-1.fna.fbcdn.net/v/t39.30808-6/292411512_10158866884351524_1716809174937682756_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=dWEe0pqd564AX_ATPsN&_nc_ht=scontent.fpoz3-1.fna&oh=00_AT_TXZgm5mEgM9DDRccudXOhsypoYGgSONmZBskfhSZF3w&oe=62D8C48E",
+              "https://s.inyourpocket.com/gallery/262588.jpg",
+              "https://d-art.ppstatic.pl/kadry/k/r/11/70/509d546aaf407_o_large.jpg"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Hola Hola",
+          "location": {"lat": 52.4065, "lng": 16.9330},
+          "description": "Hola Hola is a cocktail bar in the centre of Poznan. If you love trying different cocktails. Enjoying your cocktail outside of the bar in a summer day might be a great experience for you.",
+          "photos": [
+              "https://media-cdn.tripadvisor.com/media/photo-m/1280/13/5b/ba/63/hola-hola.jpg",
+              "https://media.cntraveller.com/photos/611bed22ab1fb48d7ae60b35/16:9/w_2580,c_limit/the-gibson-cocktail-london-conde-nast-traveller-23jan18-pr.jpg"
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Piwna Stopa Craft Beer",
+          "location": {"lat": 52.4101, "lng": 16.9367},
+          "description": "If you are a beer person and open for different craft beers. You should definitely give a chance to Piwna Stopa Craft Beer.",
+          "photos": [
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c2/28/35/16-taps-and-over-200.jpg?w=1200&h=1200&s=1",
+              "https://piwnastopa.pl/wp-content/uploads/2021/07/IMG_2637.png",
+              "https://s.inyourpocket.com/gallery/164167.jpg",
+              "https://piwnastopa.pl/wp-content/uploads/2021/06/w2.jpg"
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Cyber Machina",
+          "location": {"lat": 52.4086, "lng": 16.9221},
+          "description": "Cyber Machina is a pub you can find in many cities of Poland. If you love board and console games, it's a great match for you. Because their pub is full of games and it's completely free to play. It is one of the best pubs to meet friends in Poznan.",
+          "photos": [
+              "https://lh3.googleusercontent.com/p/AF1QipNjlyXj2itKrlOLJkV7vxdeOw9WhJiUGfOFQB2m=w1080-h608-p-no-v0",
+              "hhttps://www.hotmag.pl/media/152kwiecien/cyermachina/IMG_9364.jpg",
+              "https://www.hotmag.pl/media/152kwiecien/cyermachina/IMG_9357.jpg",
+              "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/61/b6/74/konsole.jpg?w=1200&h=-1&s=1"
+          ]
+        }
+      ]
+  }

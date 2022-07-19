@@ -1,0 +1,90 @@
+.menu-container {
+    background-color: rgba(209, 204, 204, 0.877);
+    position: fixed;
+    top: 25vh;
+    left: 50%;
+    width: 50%;
+    height: 60%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border-radius: 15px;
+    overflow-y: scroll;
+    animation: slide .4s ease-out;
+}
+
+.menu-header {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-shadow: rgba(0, 0, 0, .5);
+    margin-bottom: 0;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0 4rem;
+    margin: 0;
+}
+
+.menu-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    padding: 1rem 0;
+}
+
+.menu-list-item:last-child {
+    margin-bottom: 1rem;
+}
+
+.menu-list-item h1 {
+    color: black;
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+}
+.menu-list-item p {
+    color: black;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+}
+
+.menu-list-item h3 {
+    color: black;
+    font-size: 1.2rem;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+}
+
+
+.meal-info {
+    width: 92%;
+}
+
+.price {
+    width: 8%;
+    display: flex;
+    justify-content: right;
+}
+
+
+@keyframes slide {
+    0% {
+        top: 0vh;
+        opacity: .2;
+    }
+    25% {
+        top: 5vh;
+        opacity: .4;
+    }
+    50% {
+        top: 15vh;
+        opacity: .6;
+    }
+    75% {
+        top: 20vh;
+        opacity: .8;
+    }
+    100% {
+        top: 25vh;
+        opacity: 1;
+    }
+}
